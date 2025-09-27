@@ -1,0 +1,31 @@
+{
+  "allowedDomains": [
+    "steamcommunity.com",
+    "store.steampowered.com"
+  ],
+  "denyTLDs": ["ru", "cn", "tk", "gq", "ml"],
+  "blockedKeywords": [
+    "steam admin",
+    "administrator will ban",
+    "verify your items",
+    "inspecting your items",
+    "gift card",
+    "crypto",
+    "paypal",
+    "cashapp",
+    "nitro free",
+    "giveaway",
+    "boost your inventory",
+    "quick sell outside steam"
+  ],
+  "urlHints": [
+    "discord.gift/",
+    "faceit/",
+    "csgoroll",
+    "casedrop",
+    "dota2money",
+    "tf2money",
+    "/tradeoffer/"
+  ],
+  "maxLinksPerMessage": 3
+}

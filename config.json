@@ -1,0 +1,46 @@
+{
+  "account": {
+    "username": "yourusername",
+    "password": "yourpassword",
+    "sentryFile": "data/sentry.bin",
+    "loginKeyFile": "data/loginKey.txt",
+    "rememberPassword": true,
+    "twoFASharedSecret": "" 
+  },
+  "behavior": {
+  "autoAcceptFriends": true,
+  "sendWelcomeOnAccept": true,
+  "sendWelcomeOncePerUser": true,
+  "allowlistAutoAdd": false,
+  "allowlistBootstrapOnce": false,
+  "pollFriendInvitesMs": 60000,
+  "relogin": { "enabled": true, "baseMs": 5000, "maxMs": 300000 },
+  "cooldowns": { "welcomeMs": 1000, "minBetweenWarningsMs": 30000 }
+},
+"admin": {
+  "ownerIDs": ["yoursteammid"], 
+  "consoleCommands": true
+},
+  "messages": {
+    "welcome": "Hi! I'm an automatic assistant/Bot made by Sic4rioDragon https://github.com/Sic4rioDragon/Steamchat-bot.\n• Tell me briefly why you added me.\n• Trades: Feel free to send a Steam trade offer. I don't do cash trades. If I'm actively trading CS2/TF2 items and the offer is fair, I'll accept.\n• \"Gift\" trades (you send items without me agreeing to return anything) will be treated as gifts and **are not refundable**.\n• If we know each other, say from where. Thanks!",
+    "scamWarning": "Suspicious link or pattern detected. This account does not accept cash trades or off-platform links.",
+    "scamFinal": "You have been detected and reported for sending a fake/scam message. You will now be removed from the friend list.",
+    "langPleaseEnglish": "Neither English nor German were detected in your message. Please write in English."
+  },
+  "logging": {
+    "dir": "logs",
+    "logFlagsToCsv": true
+  },
+  "rules": "rules.json",
+  "allowlistFile": "allowlist.json",
+  "webhook": {
+    "enabled": true,
+    "url": "https://discord.com/api/webhooks/XXXXX",
+    "onlyOnImportant": false,
+    "discordEmbeds": true
+  },
+  "rateLimiter": {
+    "maxPerMinute": 12,
+    "burst": 4
+  }
+}
